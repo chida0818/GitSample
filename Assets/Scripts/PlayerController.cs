@@ -9,6 +9,7 @@ public class PlayerController : MonoBehaviour {
 	}
 	
 	void Update () {
+        //移動する
         if (Input.GetKey(KeyCode.LeftArrow))
         {
             transform.Translate(-0.5f, 0, 0);
